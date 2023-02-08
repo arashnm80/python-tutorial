@@ -17,16 +17,28 @@ https://www.sololearn.com/compiler-playground/python
 
 ## شروع برنامه نویسی
 ### نوشتن متن روی صفحه
-```
+```python
 print("hello world!")
 ```
-### استفاده از متغیر
+### کامنت گذاری
+```python
+print("این خط اجرا میشه")
+# print("این خط اجرا نمیشه")
 ```
+### استفاده از متغیر
+```python
 age = 20
 print(age)
 ```
-### گرفتن ورودی از کاربر
+### انواع متغیر ها
+```python
+age = 20 # integer
+score = 19.25 # float
+name = "Arash" # string
+status = False # boolean
 ```
+### گرفتن ورودی از کاربر
+```python
 print("enter your age:")
 age = input()
 print("your age is:", age)
