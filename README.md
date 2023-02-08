@@ -14,3 +14,9 @@ https://code.visualstudio.com/Download
 نیازی به نصب نیست و میتونید تحت وب کدتون رو اجرا کنید:
 
 https://www.sololearn.com/compiler-playground/python
+
+## شروع برنامه نویسی
+### نوشتن متن روی صفحه
+```
+print("hello world!")
+```
