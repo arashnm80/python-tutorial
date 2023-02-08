@@ -20,3 +20,8 @@ https://www.sololearn.com/compiler-playground/python
 ```
 print("hello world!")
 ```
+### استفاده از متغیر
+```
+age = 20
+print(age)
+```
