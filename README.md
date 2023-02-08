@@ -25,3 +25,9 @@ print("hello world!")
 age = 20
 print(age)
 ```
+### گرفتن ورودی از کاربر
+```
+print("enter your age:")
+age = input()
+print("your age is:", age)
+```
