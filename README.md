@@ -50,3 +50,17 @@ age = 2023 - int(birthday)
 print(age)
 ```
 یکبار هم به جای `int(birthday)` بنویسید `birthday` تا خطایی که میده رو ببینید
+### توابع تبدیل نوع متغیر ها
+```python
+int() # تبدیل به عدد صحیح
+float() # تبدیل به عدد اعشاری
+bool() # تبدیل به غیر بولین (درست یا غلط)
+str() # تبدیل به متن
+```
+### توابع کار با متن
+```python
+text = "Arash Nemat Zadeh"
+print(text) # حالت معمولی
+print(text.upper()) # حروف بزرگ
+print(text.lower()) # حروف کوچک
+```
