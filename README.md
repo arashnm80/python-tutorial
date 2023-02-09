@@ -75,5 +75,36 @@ print(text) # حالت معمولی
 print(text.upper()) # حروف بزرگ
 print(text.lower()) # حروف کوچک
 print(text.find("Nemat")) # پیدا کردن نوشته
+print("Arash" in text) # True
+print("Korosh" in text) # False
 print(text.replace("Arash","Korosh")) # جایگزین کردن نوشته
+```
+### عملیات های ریاضی
+```python
+print("taghsim:", 10 / 3)
+print("zarb:", 10 * 3)
+print("jam:", 10 + 3)
+print("tafrigh:", 10 - 3)
+print("baghi mande:", 10 % 3)
+print("tavan:", 10 ** 3)
+```
+اگر توی یه عبارت ترکیب چند تا عملیات ریاضی باشه مشابه چیزی که تو ریاضی خوندیم اول پرانتز حساب میشه، بعد ضرب و تقسیم و نهایتا جمع و تفریق
+### مقایسه
+```python
+x = input("enter x:")
+x = int(x)
+print(x == 10) # مساوی
+print(x != 10) # مخالف
+print(x > 10) # بزرگ تر
+print(x >= 10) # بزرگ تر یا مساوی
+print(x < 10) # کوچک تر
+print(x <= 10) # کوچک تر یا مساوی
+```
+### عبارات منطقی
+```python
+x = input("enter x:")
+x = int(x)
+print(x < 20 and x > 10) # و
+print(x > 100 or x < -100) # یا
+print(not x == 10) # برعکس
 ```
