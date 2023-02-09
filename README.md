@@ -1,9 +1,19 @@
 # آموزش پایتون
-## نصب پایتون روی سیستم
+## مقدمه
+### کاربرد ها و کتاب خانه ها
+- Natural Language Processing (پردازش زبان طبیعی)
+- Computer Vision (پردازش تصویر)
+- GUI (رابط کاربری گرافیکی)
+- Game (ساخت بازی)
+- Web (وب)
+- Data Science (علوم داده)
+- Math (ریاضی)
+- Machine Learning (یادگیری ماشین)
+### نصب پایتون روی سیستم
 https://www.python.org/downloads/
 
 موقع نصب گزینه (add python to path) رو هم بزنید.
-## محیط های توسعه یا همون IDE ها (هر کدوم که کار کردن باهاش براتون راحت تره رو انتخاب کنید)
+### محیط های توسعه یا همون IDE ها (هر کدوم که کار کردن باهاش براتون راحت تره رو انتخاب کنید)
 ### pycharm
 نسخه community رایگانه و میتونید اون رو از اینجا دانلود کنید:
 
@@ -29,6 +39,8 @@ print("این خط اجرا میشه")
 ```python
 age = 20
 print(age)
+other_age = age + 1
+print(other_age)
 ```
 ### انواع متغیر ها
 ```python
@@ -82,6 +94,7 @@ print(text.replace("Arash","Korosh")) # جایگزین کردن نوشته
 ### عملیات های ریاضی
 ```python
 print("taghsim:", 10 / 3)
+print("taghsim rond shode be paeen:", 10 // 3)
 print("zarb:", 10 * 3)
 print("jam:", 10 + 3)
 print("tafrigh:", 10 - 3)
@@ -107,4 +120,18 @@ x = int(x)
 print(x < 20 and x > 10) # و
 print(x > 100 or x < -100) # یا
 print(not x == 10) # برعکس
+```
+### شرط
+```python
+temperature = 25
+
+if temperature > 30: # اگر
+    print("hot")
+    print("drink water")
+elif temperature > 20: # در غیر این صورت اگر
+    print("nice weather")
+    print("go and play outside")
+else: # در غیر این صورت
+    print("cold")
+print("end")
 ```
