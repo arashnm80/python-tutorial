@@ -43,3 +43,10 @@ print("enter your age:")
 age = input()
 print("your age is:", age)
 ```
+### محاسبه سن از روی تاریخ تولد
+```python
+birthday = input("enter your birthday: ")
+age = 2023 - int(birthday)
+print(age)
+```
+یکبار هم به جای `int(birthday)` بنویسید `birthday` تا خطایی که میده رو ببینید
