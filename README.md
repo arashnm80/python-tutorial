@@ -1,5 +1,8 @@
 # آموزش پایتون
-## مقدمه
+## مقدمه و آشنایی
+- نمونه بازی مار ساخته شده در 60 خط طی 5 دقیقه با پایتون -> https://www.youtube.com/watch?v=_-KjEgCLQFw
+- پر کاربرد ترین زبان های برنامه نویسی از 1965 تا 2022 -> https://www.youtube.com/watch?v=qQXXI5QFUfw
+- مقایسه تعداد خطوط، مدت زمان ساخت و مدت زمان اجرای یک کار یکسان با 3 زبان برنامه نویسی مختلف -> https://www.youtube.com/watch?v=3PcIJKd1PKU
 ### کاربرد ها و کتاب خانه ها
 - Natural Language Processing (پردازش زبان طبیعی)
 - Computer Vision (پردازش تصویر)
