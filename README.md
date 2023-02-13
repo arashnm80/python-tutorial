@@ -26,16 +26,18 @@ https://www.python.org/downloads/
 
 موقع نصب گزینه (add python to path) رو هم بزنید.
 ### محیط های توسعه یا همون IDE ها (هر کدوم که کار کردن باهاش براتون راحت تره رو انتخاب کنید)
+### vscode
+میشه گفت در حال حاضر محبوب ترین محیط برنامه نویسی برای اکثر زبان هاست:
+https://code.visualstudio.com/Download
 ### pycharm
 نسخه community رایگانه و میتونید اون رو از اینجا دانلود کنید:
-
 https://www.jetbrains.com/pycharm/download
-### vscode
-https://code.visualstudio.com/Download
 ### sololearn code playground
 نیازی به نصب نیست و میتونید تحت وب کدتون رو اجرا کنید:
-
 https://www.sololearn.com/compiler-playground/python
+### Online Compiler - Code on Mobi
+کامپایلر آنلاین برای اندرویده که میتونید از گوگل پلی دانلود کنید:
+https://play.google.com/store/apps/details?id=app.compiler
 
 ## شروع برنامه نویسی
 ### نوشتن متن روی صفحه
