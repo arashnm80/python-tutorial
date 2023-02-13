@@ -29,6 +29,7 @@ https://www.python.org/downloads/
 ### vscode
 میشه گفت در حال حاضر محبوب ترین محیط برنامه نویسی برای اکثر زبان هاست:
 https://code.visualstudio.com/Download
+بعد از نصبش به هر زبانی که بخواید برنامه نویسی کنید پیغام دانلود extension یا افزونه مربوط به اون زبان رو میده که از داخل خودش قابل دانلوده.
 ### pycharm
 نسخه community رایگانه و میتونید اون رو از اینجا دانلود کنید:
 https://www.jetbrains.com/pycharm/download
