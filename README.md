@@ -150,3 +150,44 @@ else: # در غیر این صورت
     print("cold")
 print("end")
 ```
+### حلقه
+```python
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+```
+تکرار نوشته:
+```python
+i = 1
+while i <= 5:
+    print(i * "Bye")
+    i = i + 1
+```
+### لیست
+```python
+names = ['arash', 'korosh', 'maryam', 'mina', 'reza']
+print(names)
+print(names[0])
+print(names[1])
+print(names[-1])
+names[0] = 'aaaaarash'
+print(names)
+print(names[0:3]) # از عضو 0 تا 2 (خود 3 جزءش نیست)
+```
+استفاده از توابع لیست:
+```python
+numbers = [10, 20, 30, 40, 50]
+print(numbers)
+print(len(numbers)) # نمایش تعداد اعضا
+numbers.append(60) # اضافه کردن عضو به انتها
+print(numbers)
+numbers.insert(2, 100) # اضافه کردن عضو جدید قبل عضو دوم
+print(numbers)
+print(10 in numbers) # چک کردن حضور 10 بین اعضا
+print(90 in numbers) # چک کردن حضور 90 بین اعضا
+numbers.remove(100) # حذف 100 از بین اعضا
+print(numbers)
+numbers.clear() # پاک کردن تمام اعضا
+print(numbers)
+```
