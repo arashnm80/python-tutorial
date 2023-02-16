@@ -150,27 +150,13 @@ else: # در غیر این صورت
     print("cold")
 print("end")
 ```
-### حلقه
-```python
-i = 1
-while i <= 5:
-    print(i)
-    i = i + 1
-```
-تکرار نوشته:
-```python
-i = 1
-while i <= 5:
-    print(i * "Bye")
-    i = i + 1
-```
 ### لیست
 ```python
 names = ['arash', 'korosh', 'maryam', 'mina', 'reza']
 print(names)
-print(names[0])
-print(names[1])
-print(names[-1])
+print(names[0]) # عضو اول
+print(names[1]) # عضو دوم
+print(names[-1]) # عضو آخر
 names[0] = 'aaaaarash'
 print(names)
 print(names[0:3]) # از عضو 0 تا 2 (خود 3 جزءش نیست)
@@ -190,4 +176,25 @@ numbers.remove(100) # حذف 100 از بین اعضا
 print(numbers)
 numbers.clear() # پاک کردن تمام اعضا
 print(numbers)
+```
+### حلقه
+حلقه while:
+```python
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+```
+تکرار نوشته:
+```python
+i = 1
+while i <= 5:
+    print(i * "Bye")
+    i = i + 1
+```
+حقفه for:
+```python
+names = ["ali", "amin", "shabnam"]
+for i in names:
+    print("Salam " + i)
 ```
