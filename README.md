@@ -22,6 +22,8 @@
 - Math (ریاضی)
 - Machine Learning (یادگیری ماشین)
 ### نصب پایتون روی سیستم
+**ویدیوی نصب پایتون و استفاده نرم افزار ها: [آپارات](https://aparat.com/v/rzPbj) |  [youtube](https://youtu.be/rk_peEj5gzY)**
+
 https://www.python.org/downloads/
 
 موقع نصب گزینه (add python to path) رو هم بزنید.
