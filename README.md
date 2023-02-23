@@ -163,6 +163,19 @@ else: # در غیر این صورت
     print("cold")
 print("end")
 ```
+برنامه چک کردن سن:
+```python
+if int(age) < 0:
+    print("Age is wrong.")
+    print("enter another age")
+elif int(age) < 18:
+    print("you are a child")
+elif int(age) > 100:
+    print("go die")
+else:
+    print("You are in a good age")
+print("end")
+```
 ### لیست
 ```python
 names = ['arash', 'korosh', 'maryam', 'mina', 'reza']
