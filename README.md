@@ -70,6 +70,13 @@ score = 19.25 # float
 name = "Arash" # string
 status = False # boolean
 ```
+همچنین میشه برای کوتاه تر شدن نوشته جند تا متغیر رو پشت سر هم تو یه خط تعریف کرد:
+```python
+a, b, c = 1, 19.5, "hello"
+print(a)
+print(b)
+print(c)
+```
 ### گرفتن ورودی از کاربر
 ```python
 print("enter your age:")
@@ -200,6 +207,13 @@ i = 1
 while i <= 5:
     print(i * "Bye")
     i = i + 1
+```
+استفاده از حلقه while برای ساخت دنباله فیبوناچی(دنباله ای که هر عضو اون جمع 2 تا عدد قبلیه):
+```python
+a, b = 0, 1
+while a < 20:
+    print(a)
+    a, b = b, a + b
 ```
 حقفه for:
 ```python
