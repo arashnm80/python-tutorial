@@ -239,6 +239,9 @@ numbers = range(5) # از صفر تا 4 (خود 5 شاملش نیست)
 for i in numbers:
     print(i)
 
+for i in range(5): # همون کد قبلی به صورت کوتاه تر
+    print(i)
+
 numbers = range(15, 20) # از 15 تا 19 (خود 20 نیست)
 for i in numbers:
     print(i)
@@ -246,6 +249,7 @@ for i in numbers:
 numbers = range(10, 100, 5) # از 10 تا 100 پنج تا پنج تا (خود 100 که آخریه جزءش نیست)
 for i in numbers:
     print(i)
+    
 ```
 ### tuple
 توضیح: tuple مشابه list است با این تفاوت که قابل تغییر نیست.
