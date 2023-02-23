@@ -166,6 +166,9 @@ print(names[-1]) # عضو آخر
 names[0] = 'aaaaarash'
 print(names)
 print(names[0:3]) # از عضو 0 تا 2 (خود 3 جزءش نیست)
+print(names)
+names[1:3] = ['k', 'm'] # جایگزین کردن بخشی از لیست با یه لیست دیگه
+print(names)
 ```
 استفاده از توابع لیست:
 ```python
