@@ -227,6 +227,12 @@ while i < len(names):
     print("Salam " + names[i])
     i = i + 1
 ```
+نمایش اندازه هر کلمه در لیست با حلقه for:
+```python
+my_words = ['programmer', 'git', 'vscode']
+for w in my_words:
+    print(w, len(w))
+```
 ### range
 ```python
 numbers = range(5) # از صفر تا 4 (خود 5 شاملش نیست)
