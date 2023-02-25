@@ -26,7 +26,7 @@
 - Data Science (علوم داده)
 - Math (ریاضی)
 - Machine Learning (یادگیری ماشین)
-### نصب پایتون روی سیستم
+### نصب پایتون روی سیستم (اگر ویندوز 10 یا 11 داشته باشید دردسر خیلی کمتری خواهید داشت)
 **ویدیوی نصب پایتون و استفاده نرم افزار ها: [آپارات](https://aparat.com/v/rzPbj) |  [youtube](https://youtu.be/rk_peEj5gzY)**
 
 https://www.python.org/downloads/
