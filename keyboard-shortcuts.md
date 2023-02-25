@@ -1,6 +1,6 @@
 # keyboard shortcuts
 
-- vscode for windows: https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference
+- vscode: https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference
     - windows: https://go.microsoft.com/fwlink/?linkid=832145
     - linux: https://go.microsoft.com/fwlink/?linkid=832144
     - mac: https://go.microsoft.com/fwlink/?linkid=832143
