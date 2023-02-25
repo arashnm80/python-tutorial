@@ -229,7 +229,7 @@ while a < 20:
     print(a)
     a, b = b, a + b
 ```
-حقفه for:
+حلقه for:
 ```python
 names = ["ali", "amin", "shabnam"]
 for i in names:
