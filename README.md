@@ -177,6 +177,36 @@ else:
     print("You are in a good age")
 print("end")
 ```
+نمونه اول از if که سر کلاس امتحان کردیم:
+```python
+x = int(input("enter number: "))
+
+if x > 4:
+    print("bozorgtar az 4")
+elif x > 0:
+    print("bozorgtar az 0")
+else:
+    print("kochaktar ya mosavi 4")
+
+print("end")
+```
+نمونه دوم از if که سر کلاس امتحان کردیم:
+```python
+y = input("enter a text: ")
+
+if y.lower() != "hello":
+    print("hello back to you")
+else:
+    print("bye")
+```
+چک کردن موجود بودن یک فایل:
+```python
+import os
+if os.path.isfile("test.py"):
+    print("this file exists")
+else:
+    print("doesn't")
+```
 ### لیست
 ```python
 names = ['arash', 'korosh', 'maryam', 'mina', 'reza']
@@ -206,6 +236,13 @@ numbers.remove(100) # حذف 100 از بین اعضا
 print(numbers)
 numbers.clear() # پاک کردن تمام اعضا
 print(numbers)
+
+txt1 = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+print(txt1)
+
+x = input()
+y = "Hello, this is our {name1} class".format(name1 = x)
+print(y)
 ```
 ### حلقه
 حلقه while:
