@@ -130,6 +130,7 @@ print("jam:", 10 + 3)
 print("tafrigh:", 10 - 3)
 print("baghi mande:", 10 % 3)
 print("tavan:", 10 ** 3)
+print(10 * "stop") # ده بار نوشته استاپ رو پشت هم برای ما مینویسه
 ```
 اگر توی یه عبارت ترکیب چند تا عملیات ریاضی باشه مشابه چیزی که تو ریاضی خوندیم اول پرانتز حساب میشه، بعد ضرب و تقسیم و نهایتا جمع و تفریق.
 ### مقایسه
@@ -199,6 +200,18 @@ if y.lower() != "hello":
     print("hello back to you")
 else:
     print("bye")
+```
+چک کردن زوج یا فرد بودن یک عدد:
+```python
+x = input("enter your number: ")
+x = int(x)
+
+y = x % 2 # محاسبه باقیمانده تقسیم بر 2
+
+if y == 0: # اگر باقی مانده صفر بود
+    print("even")
+else: # اگر باقی مانده صفر نبود
+    print("odd")
 ```
 چک کردن موجود بودن یک فایل:
 ```python
@@ -302,6 +315,23 @@ numbers = range(10, 100, 5) # از 10 تا 100 پنج تا پنج تا (خود 1
 for i in numbers:
     print(i)
     
+```
+دنباله فیبوناچی با حلقه for:
+```python
+# fibonacci series: z = x + y
+# 1 1 2 3 5 8 13 21
+# x y z →
+#   x y z →
+#     x y z →
+#       x y z →
+
+x = 1
+y = 1
+for i in range(10):
+    print(x)
+    z = x + y
+    x = y
+    y = z
 ```
 ### tuple
 توضیح: tuple مشابه list است با این تفاوت که قابل تغییر نیست.
