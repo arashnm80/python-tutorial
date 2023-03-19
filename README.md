@@ -179,6 +179,34 @@ else:
     print("You are in a good age")
 print("end")
 ```
+برنامه ای که چک میکنه عدد ورودی بین 0 و 20 هست یا نه (به 4 شکل مختلف انجام دادم):
+```python
+x = int(input())
+
+print("1:")
+if 0 < x < 20: # اگر ایکس بین 0 و 20 بود
+    print("ok")
+else: # در غیر این صورت
+    print("not ok")
+
+print("2:")
+if 0 < x and x < 20: # نوع دیگر نوشتن، دقیقا همون کار مدل بالایی رو میکنه
+    print("ok")
+else: # در غیر این صورت
+    print("not ok")
+
+print("3:")
+if x < 0 or x > 20: # نوع دیگر نوشتن، دقیقا همون کار دو مدل قبلی رو میکنه
+    print("not ok")
+else: # در غیر این صورت
+    print("ok")
+
+print("4:")
+if not(x < 0 or x > 20): # نوع دیگر نوشتن، دقیقا همون کار سه مدل قبلی رو میکنه
+    print("ok")
+else: # در غیر این صورت
+    print("not ok")
+```
 نمونه اول از if که سر کلاس امتحان کردیم:
 ```python
 x = int(input("enter number: "))
