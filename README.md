@@ -54,6 +54,11 @@ https://play.google.com/store/apps/details?id=app.compiler
 ```python
 print("hello world!")
 ```
+نوشتن متن روی صفحه بدون رفتن به خط بعد:
+```python
+print("hello ", end = "")
+print("world!")
+```
 ### کامنت گذاری
 ```python
 print("این خط اجرا میشه")
