@@ -45,6 +45,10 @@ https://www.jetbrains.com/pycharm/download
 ### sololearn code playground
 نیازی به نصب نیست و میتونید تحت وب کدتون رو اجرا کنید:
 https://www.sololearn.com/compiler-playground/python
+### Pydroid 3 - IDE for Python 3
+محیط توسعه برای اندروید به پیشنهاد محمد کهنوی:
+https://play.google.com/store/apps/details?id=ru.iiec.pydroid3
+
 ### Online Compiler - Code on Mobi
 کامپایلر آنلاین برای اندرویده که میتونید از گوگل پلی دانلود کنید:
 https://play.google.com/store/apps/details?id=app.compiler
