@@ -331,3 +331,29 @@ For i in range(6):
 For i in range(6):
     Print((i+1) * '*'
 ```
+جواب سر کلاس:
+```python
+print("a:")
+i = 1
+while i <= 5:
+    print(i * "*")
+    i = i + 1
+
+print("b:")
+i = 5
+while i >= 1:
+    print(i * "*")
+    i = i - 1
+
+print("c:")
+i = 1
+while i <= 5:
+    print((5 - i) * " " + i * "*")
+    i = i + 1
+
+print("d:")
+i = 5
+while i >= 1:
+    print((5 - i) * " " + i * "*")
+    i = i - 1
+```
