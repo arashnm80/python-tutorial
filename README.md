@@ -377,3 +377,12 @@ for i in range(10):
 numbers = (1, 2, 3, 4)
 numbers[0] = 10 # ارور میده چون قابل تغییر نیست
 ```
+### تو در تو نوشتن
+```python
+for x in range(1, 21):
+    print("\n")
+    print(x, end=": ")
+    for i in range(1, x + 1):
+        if x % i == 0:
+            print(i, end=", ")
+```
