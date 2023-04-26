@@ -300,6 +300,15 @@ for x in range(1, 101):
     if x % 7 == 0:
         print(x)
 ```
+جوابی که تو کلاس با هم نوشتیم:
+```python
+for i in range(100):
+    x = i + 1
+    if x % 7 == 0:
+        print(x,"hast+++++++++")
+    # elif x % 7 > 0:
+        # print(x,"nist")
+```
 ## 11
 محمد کهنوی:
 ```python
