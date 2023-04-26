@@ -410,7 +410,7 @@ def hossein():
     print("ye adad vared konid:")
     x = input()
     x = int(x)
-    # x = math.sqrt(x) # 
+    # x = math.sqrt(x) # تابع نمونه دیگری تو توابع ریاضی که رادیکال رو چاپ میکنه
     x = math.factorial(x)
     x = int(x)
     print(x)
