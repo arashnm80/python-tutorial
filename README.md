@@ -400,3 +400,29 @@ print("Hello")
 amin()
 print("bye")
 ```
+مثال دوم:
+```python
+import math # فراخوانی توابع ریاضی به برنامه خودمون
+
+# تابع حسین پارامتر نداره
+# یدونه ورودی از ما میگیره و فاکتوریلش رو حساب میکنه
+def hossein():
+    print("ye adad vared konid:")
+    x = input()
+    x = int(x)
+    # x = math.sqrt(x) # 
+    x = math.factorial(x)
+    x = int(x)
+    print(x)
+
+# تابع سید 2 تا پارامتر تو ورودی میگیره و ضربشون رو چاپ میکنه
+def seyed(a, b):
+    z = a*b
+    print(z)
+
+# مثلا میتونیم اینطوری از تابع سید که تو بالا تعریف کردیم استفاده کنیم:
+# for i in range(20):
+#     x = int(input("x: "))
+#     y = int(input("y: "))
+#     seyed(x, y)
+```
