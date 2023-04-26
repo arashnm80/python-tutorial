@@ -387,3 +387,16 @@ for x in range(1, 21):
         if x % i == 0:
             print(i, end=", ")
 ```
+### توابع
+مثال اول:
+```python
+def amin():
+    print("be amin khosh oomadid:")
+    x = int(input())
+    y = int(input())
+    print(x + y)
+
+print("Hello")
+amin()
+print("bye")
+```
