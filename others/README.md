@@ -21,3 +21,4 @@
 
 ### youtube
 - Mosh - Python for Beginners - Learn Python in 1 Hour: https://www.youtube.com/watch?v=kqtD5dpn9C8
+- Tkinter Beginner Course - Python GUI Development - https://www.youtube.com/watch?v=ibf5cx221hk
