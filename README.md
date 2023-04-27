@@ -510,3 +510,17 @@ entry1.pack()
 
 win.mainloop() # نمایش پنجره
 ```
+قرار دادن یک label سمت چپ و یک entry سمت راست:
+```python
+from tkinter import * # وارد کردن کل اجزای ماژول تکینتر به برنامه
+
+win = Tk() # ساخت پنجره
+
+entry1 = Entry(win) # ساخت جای خالی یک خطی برای نوشته
+entry1.pack(side=RIGHT) # قرار دادن سمت راست
+
+label1 = Label(win, text="my label")
+label1.pack(side=LEFT) # قرار دادن سمت چپ
+
+win.mainloop() # نمایش پنجره
+```
