@@ -545,3 +545,22 @@ btn1.pack()
 
 win.mainloop() # نمایش پنجره
 ```
+حالا کد قبلی رو تغییر میدیم تا به جای چاپ تو ترمینال به صورت messagebox (پیغام) روی صفحه به ما نشون بده:
+```python
+from tkinter import * # وارد کردن کل اجزای ماژول تکینتر به برنامه
+from tkinter import messagebox # اضافه کردن ماژول پیغام به برنامه
+
+def myfunc():
+    text = entry1.get() # دریافت نوشته از entry
+    messagebox.showinfo("my title", text) # نشان دادن پیغام در صفحه
+
+win = Tk() # ساخت پنجره
+
+entry1 = Entry(win) # ساخت جای خالی یک خطی برای نوشته
+entry1.pack()
+
+btn1 = Button(win, text="print", command=myfunc) # تعریف دستور برای زمان کلیک شدن دکمه
+btn1.pack()
+
+win.mainloop() # نمایش پنجره
+```
