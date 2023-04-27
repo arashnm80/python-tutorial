@@ -491,5 +491,11 @@ label3.pack(padx=5, pady=2) # قرار دادن لیبل با فاصله گذا�
 label4 = Label(window, text="Reza") # ساخت یک لیبل با نوشته دلخواه
 label4.pack(padx=5, pady=2) # قرار دادن لیبل با فاصله گذاری خودکار
 
+label5 = Label(window, text="Maryam", font = ("Times", 20)) # تغییر سایز و فونت
+label5.place(x = 500, y = 300)
+
+label6 = Label(window, text = "Zahra", fg="blue", bg="yellow") # تنظیم رنگ نوشته و پس زمینه
+label6.pack()
+
 window.mainloop() # نمایش پنجره
 ```
