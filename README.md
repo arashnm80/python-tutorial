@@ -508,5 +508,5 @@ win = Tk() # ساخت پنجره
 entry1 = Entry(win) # ساخت جای خالی یک خطی برای نوشته
 entry1.pack()
 
-window.mainloop() # نمایش پنجره
+win.mainloop() # نمایش پنجره
 ```
