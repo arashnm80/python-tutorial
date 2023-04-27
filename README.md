@@ -524,3 +524,24 @@ label1.pack(side=LEFT) # قرار دادن سمت چپ
 
 win.mainloop() # نمایش پنجره
 ```
+
+برای علاقه مندان: بازی با حالت های دیگر چیدمان (زبانش فرانسویه ولی مهم نیست. میتونید به کد هاش نگاه مختصر بندازید و بعد چک کنید ببینید حاصل چه چیدمانی شده): https://infoforall.fr/python/python-act110.html
+
+قرار دادن button (دکمه) کنار entry که با زدن روش متن داخلش رو تو ترمینال چاپ میکنه:
+```python
+from tkinter import * # وارد کردن کل اجزای ماژول تکینتر به برنامه
+
+def myfunc():
+    text = entry1.get() # دریافت نوشته از entry
+    print(text) # چاپ نوشته در ترمینال
+
+win = Tk() # ساخت پنجره
+
+entry1 = Entry(win) # ساخت جای خالی یک خطی برای نوشته
+entry1.pack()
+
+btn1 = Button(win, text="print", command=myfunc) # تعریف دستور برای زمان کلیک شدن دکمه
+btn1.pack()
+
+win.mainloop() # نمایش پنجره
+```
