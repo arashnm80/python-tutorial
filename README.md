@@ -470,3 +470,26 @@ window.geometry("800x400+50+10")
 
 window.mainloop() # نمایش پنجره
 ```
+اضافه کردن label ها به صفحه:
+```python
+from tkinter import * # وارد کردن کل اجزای ماژول تکینتر به برنامه
+
+window = Tk() # ساخت پنجره
+
+# تنظیم ابعاد به فرمت زیر
+# widthxheight+x+y
+# میتونیم 2 تای آخر یا اصلا هر 4 تا رو ننویسیم
+window.geometry("800x400+50+10")
+
+label1 = Label(window, text="Arash") # ساخت یک لیبل با نوشته دلخواه
+label1.place(x = 10, y = 30) # قرار دادن لیبل در جای دلخواه
+
+label2 = Label(window, text="Korosh") # ساخت یک لیبل با نوشته دلخواه
+label2.pack(padx=5, pady=2) # قرار دادن لیبل با فاصله گذاری خودکار
+label3 = Label(window, text="Ali") # ساخت یک لیبل با نوشته دلخواه
+label3.pack(padx=5, pady=2) # قرار دادن لیبل با فاصله گذاری خودکار
+label4 = Label(window, text="Reza") # ساخت یک لیبل با نوشته دلخواه
+label4.pack(padx=5, pady=2) # قرار دادن لیبل با فاصله گذاری خودکار
+
+window.mainloop() # نمایش پنجره
+```
