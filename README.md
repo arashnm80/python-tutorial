@@ -52,6 +52,9 @@ https://play.google.com/store/apps/details?id=ru.iiec.pydroid3
 ### Online Compiler - Code on Mobi
 کامپایلر آنلاین برای اندرویده که میتونید از گوگل پلی دانلود کنید:
 https://play.google.com/store/apps/details?id=app.compiler
+### PyCode - ide for python
+برنامه مشابه دیگری برای اندروید:
+https://play.google.com/store/apps/details?id=com.alif.ide.python
 
 ## شروع برنامه نویسی
 ### نوشتن متن روی صفحه
