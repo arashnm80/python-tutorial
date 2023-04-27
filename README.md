@@ -499,3 +499,14 @@ label6.pack()
 
 window.mainloop() # نمایش پنجره
 ```
+ساخت Entry یا جای خالی تک خطی:
+```python
+from tkinter import * # وارد کردن کل اجزای ماژول تکینتر به برنامه
+
+win = Tk() # ساخت پنجره
+
+entry1 = Entry(win) # ساخت جای خالی یک خطی برای نوشته
+entry1.pack()
+
+window.mainloop() # نمایش پنجره
+```
