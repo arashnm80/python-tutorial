@@ -357,3 +357,20 @@ while i >= 1:
     print((5 - i) * " " + i * "*")
     i = i - 1
 ```
+## 12
+محمد کهنوی:
+```python
+import math
+def prime():
+    if x <= 1:
+        return False
+    for i in range(2, int(math.sqrt(x)) + 1):
+        if x % i == 0:
+            return False
+    return True
+x = int(input())
+print(prime())
+استفاده از تابع تعریف شده در یک فایل دیگه:
+from text import prime
+prime()
+```
