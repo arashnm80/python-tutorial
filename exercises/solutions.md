@@ -374,3 +374,50 @@ print(prime())
 from text import prime
 prime()
 ```
+## 13
+امیدرضا قربانی (با کمک chatGPT):
+```python
+import tkinter as tk
+
+def say_hello():
+    name = name_entry.get()
+    greeting = "Hello " + name
+    greeting_label.config(text=greeting)
+
+root = tk.Tk()
+root.title("Greeting App")
+
+name_label = tk.Label(root, text="Enter your name:")
+name_label.pack()
+
+name_entry = tk.Entry(root)
+name_entry.pack()
+
+greeting_label = tk.Label(root)
+greeting_label.pack()
+
+hello_button = tk.Button(root, text="Say Hello", command=say_hello)
+hello_button.pack()
+
+root.mainloop()
+```
+## 14
+امیدرضا قربانی (با کمک chatGPT):
+```python
+def can_capture(piece1, piece2):
+    x1, y1 = piece1
+    x2, y2 = piece2
+    if x1 == x2 or y1 == y2:
+        return True
+    elif abs(x1 - x2) == abs(y1 - y2):
+        return True
+    else:
+        return False
+pieces = [('rook', 1, 1), ('knight', 3, 3), ('bishop', 5, 5), ('queen', 7, 7)]
+for i in range(len(pieces)):
+    for j in range(i+1, len(pieces)):
+        if can_capture(pieces[i][1:], pieces[j][1:]):
+            print(f"{pieces[i][0]} can capture {pieces[j][0]}")
+        else:
+            print(f"{pieces[i][0]} cannot capture {pieces[j][0]}")
+```
