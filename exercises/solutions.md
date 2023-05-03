@@ -421,3 +421,50 @@ for i in range(len(pieces)):
         else:
             print(f"{pieces[i][0]} cannot capture {pieces[j][0]}")
 ```
+محمد کهنوی:
+```python
+#وزیر_شطرنج
+s1 = input()
+s2 = input()
+x1, y1 = s1.split()
+x2, y2 = s2.split()
+x1, x2 = int(x1), int(x2)
+y1, y2 = int(y1), int(y2)
+count = 0
+if x1 == x2 or y1 == y2 or x1 - y2 == x2 - y1 or y1 - x2 == y2 - x1 or y2 - x1 == y1 - x2 or x2 - y1 == x1 - y2:
+    count = count + 1
+if count == 1:
+    print("You can hit the nut")
+else:
+    print("You can't hit the nut")
+#رخ_شطرنج
+s1 = input()
+s2 = input()
+x1, y1 = s1.split()
+x2, y2 = s2.split()
+x1, x2 = int(x1), int(x2)
+y1, y2 = int(y1), int(y2)
+count = 0
+if x1 == x2 or y1 == y2:
+    count = count + 1
+if count == 1:
+    print("You can hit the nut")
+else:
+    print("You can't hit the nut")
+#فیل_شطرنج
+s1 = input()
+s2 = input()
+x1, y1 = s1.split()
+x2, y2 = s2.split()
+x1, x2 = int(x1), int(x2)
+y1, y2 = int(y1), int(y2)
+count = 0
+if x1 - y2 == x2 - y1 or y1 - x2 == y2 - x1 or y2 - x1 == y1 - x2 or x2 - y1 == x1 - y2:
+    count = count + 1
+if count == 1:
+    print("You can hit the nut")
+else:
+    print("You can't hit the nut")
+```
+
+
