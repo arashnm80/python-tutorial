@@ -375,6 +375,25 @@ from text import prime
 prime()
 ```
 ## 13
+خودم:
+```python
+from tkinter import *
+from tkinter import messagebox
+
+def hello():
+    name = blank_space.get()
+    messagebox.showinfo("hello window","hello " + name)
+
+win = Tk()
+
+blank_space = Entry(win)
+blank_space.pack()
+
+hello_button = Button(win, text="say hello", command=hello)
+hello_button.pack()
+
+win.mainloop()
+```
 امیدرضا قربانی (با کمک chatGPT):
 ```python
 import tkinter as tk
