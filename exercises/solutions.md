@@ -402,6 +402,69 @@ hello_button.pack()
 root.mainloop()
 ```
 ## 14
+خودم:
+```python
+# first piece of chess
+p1 = input()
+p1 = [int(x) for x in p1.split()]
+# second piece of chess
+p2 = input()
+p2 = [int(x) for x in p2.split()]
+
+# gets p1 and p2 as list
+def rook(p1, p2):
+    if p1[0] == p2[0] or p1[1] == p2[1]:
+        return True
+    else:
+        return False
+    
+# gets p1 and p2 as list
+def bishop(p1, p2):
+    if abs(p1[0] - p2[0]) == abs(p1[1] - p2[1]):
+        return True
+    else:
+        return False
+    
+# gets p1 and p2 as list
+def queen(p1, p2):
+    if rook(p1, p2) or bishop(p1, p2):
+        return True
+    else:
+        return False
+    
+# gets p1 and p2 as list
+def knight(p1, p2):
+    if abs(p1[0] - p2[0]) == 2 and abs(p1[1] - p2[1]) == 1:
+        return True
+    elif abs(p1[0] - p2[0]) == 1 and abs(p1[1] - p2[1]) == 2:
+        return True
+    else:
+        return False
+
+print("If p1 is a rook:")
+if rook(p1, p2):
+    print("p1 can capture p2\n")
+else:
+    print("p1 can not capture p2\n")
+
+print("if p1 is a bishop:")
+if bishop(p1, p2):
+    print("p1 can capture p2\n")
+else:
+    print("p1 can not capture p2\n")
+
+print("if p1 is a queen:")
+if queen(p1, p2):
+    print("p1 can capture p2\n")
+else:
+    print("p1 can not capture p2\n")
+
+print("if p1 is a knight:")
+if knight(p1, p2):
+    print("p1 can capture p2\n")
+else:
+    print("p1 can not capture p2\n")
+```
 امیدرضا قربانی (با کمک chatGPT):
 ```python
 def can_capture(piece1, piece2):
@@ -480,5 +543,3 @@ if count == 1:
 else:
     print("You can't hit the nut")
 ```
-
-
