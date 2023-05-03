@@ -465,6 +465,20 @@ if count == 1:
     print("You can hit the nut")
 else:
     print("You can't hit the nut")
+#اسب_شطرنج
+s1 = input()
+s2 = input()
+x1, y1 = s1.split()
+x2, y2 = s2.split()
+x1, x2 = int(x1), int(x2)
+y1, y2 = int(y1), int(y2)
+count = 0
+if abs(x1 - x2) == 1 and abs(y1 - y2) == 2:
+    count = count + 1
+if count == 1:
+    print("You can hit the nut")
+else:
+    print("You can't hit the nut")
 ```
 
 
