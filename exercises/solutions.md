@@ -358,6 +358,26 @@ while i >= 1:
     i = i - 1
 ```
 ## 12
+خودم:
+```python
+# file 1 named functions.py
+from math import sqrt
+
+def prime(x):
+    for i in range(2, int(sqrt(x) + 1)):
+        if x % i == 0:
+            return False
+    return True
+
+# file 2 named main.py
+import functions
+
+x = int(input("enter your number: "))
+if functions.prime(x):
+    print(f"{x} is a prime number.")
+else:
+    print(f"{x} is not a prime number.")
+```
 محمد کهنوی:
 ```python
 import math
