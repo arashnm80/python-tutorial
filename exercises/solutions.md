@@ -525,7 +525,7 @@ for i in range(len(pieces)):
 ```
 محمد کهنوی:
 ```python
-#وزیر_شطرنج
+#Queen
 s1 = input()
 s2 = input()
 x1, y1 = s1.split()
@@ -539,7 +539,7 @@ if count == 1:
     print("You can hit the nut")
 else:
     print("You can't hit the nut")
-#رخ_شطرنج
+#Rook
 s1 = input()
 s2 = input()
 x1, y1 = s1.split()
@@ -553,7 +553,7 @@ if count == 1:
     print("You can hit the nut")
 else:
     print("You can't hit the nut")
-#فیل_شطرنج
+#chess bishop
 s1 = input()
 s2 = input()
 x1, y1 = s1.split()
@@ -567,7 +567,7 @@ if count == 1:
     print("You can hit the nut")
 else:
     print("You can't hit the nut")
-#اسب_شطرنج
+#knight
 s1 = input()
 s2 = input()
 x1, y1 = s1.split()
