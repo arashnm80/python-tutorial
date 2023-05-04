@@ -564,4 +564,5 @@ btn1.pack()
 
 win.mainloop() # نمایش پنجره
 ```
-
+نمونه استفاده از grid در tkinter پایتون:
+https://www.pythonguis.com/tutorials/create-ui-with-tkinter-grid-layout-manager/
