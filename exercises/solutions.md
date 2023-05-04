@@ -504,6 +504,68 @@ if knight(p1, p2):
 else:
     print("p1 can not capture p2\n")
 ```
+سر کلاس با هم:
+```python
+s = input()
+s = s.split()
+for i in range(2):
+    s[i] = int(s[i])
+
+d = input()
+d = d.split()
+for i in range(len(d)):
+    d[i] = int(d[i])
+
+def rook(s, d):
+    if s[0] == d[0] or s[1] == d[1]:
+        return True
+    else:
+        return False
+
+def fil(s, d):
+    if abs(s[0] - d[0]) == abs(s[1] - d[1]):
+        return True
+    else:
+        return False
+
+def queen(s, d):
+    if rook(s, d) or fil(s, d):
+        return True
+    else:
+        return False
+    
+def knight(s, d):
+    if abs(s[0] - d[0]) == 2 and abs(s[1] - d[1]) == 1:
+        return True
+    elif abs(s[0] - d[0]) == 1 and abs(s[1] - d[1]) == 2:
+        return True
+    else:
+        return False
+    
+print("if s is a rook:")
+if rook(s, d):
+    print("s can capture d.")
+else:
+    print("s can not capture d.")
+
+print("if s is a fil:")
+if fil(s, d):
+    print("s can capture d.")
+else:
+    print("s can not capture d.")
+
+print("if s is a queen:")
+if queen(s, d):
+    print("s can capture d.")
+else:
+    print("s can not capture d.")
+
+print("if s is a knight:")
+if knight(s, d):
+    print("s can capture d.")
+else:
+    print("s can not capture d.")
+```
 امیدرضا قربانی (با کمک chatGPT):
 ```python
 def can_capture(piece1, piece2):
