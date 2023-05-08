@@ -8,6 +8,7 @@ print ("Mohammad taha zarini")
 ```python
 print("Hello Mohammad Kahnavi")
 ```
+www.coffeete.ir/mohammadkah
 ## 1
 
 پارسا صفائی:
@@ -28,6 +29,7 @@ print("Enter your name?")
 name = input()
 print("Hello" , name)
 ```
+www.coffeete.ir/mohammadkah
 ## 2
 
 پارسا صفائی:
@@ -48,6 +50,7 @@ x = int(input())
 y = int(input())
 print(x+y)
 ```
+www.coffeete.ir/mohammadkah
 ## 3
 پارسا صفائی:
 ```python
@@ -69,6 +72,7 @@ y = int(input("Whrite the second number"))
 z = str(x+y)
 print("The sum of them is equal to: " + z)
 ```
+www.coffeete.ir/mohammadkah
 ## 4
 
 پارسا صفائی:
@@ -90,6 +94,7 @@ x = input("Whats your first name?")
 y = input("Whats your last name?")
 z = print(x,y)
 ```
+www.coffeete.ir/mohammadkah
 ## 5
 پارسا صفائی:
 ```python
@@ -117,6 +122,7 @@ print("The power off:", x ** y)
 print("Divided:", x / y)
 print("Remainder:", x % y)
 ```
+www.coffeete.ir/mohammadkah
 ## 6
 پارسا صفائی:
 ```python
@@ -174,6 +180,7 @@ fruits = ['apple', 'banana', 'cherry', 'orange']
 x = fruits.copy()
 print(x)
 ```
+www.coffeete.ir/mohammadkah
 ## 7
 محمد کهنوی:
 ```python
@@ -191,6 +198,7 @@ elif 0 <= x < 9:
 elif x > 20 or x < 0:
     print("The entered number is invalid")
 ```
+www.coffeete.ir/mohammadkah
 پارسا صفائی:
 ```python
 x = int (input(("moadel khod ra vared konid: ")))
@@ -276,7 +284,7 @@ if e > 0:
     numbers.append(e)
 print(numbers)
 ```
-
+www.coffeete.ir/mohammadkah
 پارسا صفائی:
 ```python
 for i in range (5):
@@ -293,6 +301,7 @@ for i in range (5):
     x = input("Enter your name:")
     print(x)
 ```
+www.coffeete.ir/mohammadkah
 ## 10
 محمد کهنوی:
 ```python
@@ -300,6 +309,7 @@ for x in range(1, 101):
     if x % 7 == 0:
         print(x)
 ```
+www.coffeete.ir/mohammadkah
 جوابی که تو کلاس با هم نوشتیم:
 ```python
 for i in range(100):
@@ -322,6 +332,7 @@ i = 5
 while i >= 1:
     print(i * "*")
     i = i - 1
+www.coffeete.ir/mohammadkah
 ```
 امیررضا شهماردخت:
 ```python
@@ -394,6 +405,7 @@ print(prime())
 from text import prime
 prime()
 ```
+www.coffeete.ir/mohammadkah
 ## 13
 خودم:
 ```python
@@ -644,3 +656,4 @@ if count == 1:
 else:
     print("You can't hit the nut")
 ```
+www.coffeete.ir/mohammadkah
