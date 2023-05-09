@@ -7,6 +7,7 @@ print ("Mohammad taha zarini")
 محمد کهنوی:
 ```python
 print("Hello Mohammad Kahnavi")
+#www.coffeete.ir/mohammadkah
 ```
 ## 1
 
@@ -27,6 +28,7 @@ print("Hello " + name)
 print("Enter your name?")
 name = input()
 print("Hello" , name)
+#www.coffeete.ir/mohammadkah
 ```
 ## 2
 
@@ -47,6 +49,7 @@ print (x+y)
 x = int(input())
 y = int(input())
 print(x+y)
+#www.coffeete.ir/mohammadkah
 ```
 ## 3
 پارسا صفائی:
@@ -68,6 +71,7 @@ x = int(input("Whrite the first number"))
 y = int(input("Whrite the second number"))
 z = str(x+y)
 print("The sum of them is equal to: " + z)
+#www.coffeete.ir/mohammadkah
 ```
 ## 4
 
@@ -89,6 +93,7 @@ print ("your complete name is: " + name3)
 x = input("Whats your first name?")
 y = input("Whats your last name?")
 z = print(x,y)
+#www.coffeete.ir/mohammadkah
 ```
 ## 5
 پارسا صفائی:
@@ -116,6 +121,7 @@ print("Times:", x * y)
 print("The power off:", x ** y)
 print("Divided:", x / y)
 print("Remainder:", x % y)
+#www.coffeete.ir/mohammadkah
 ```
 ## 6
 پارسا صفائی:
@@ -173,6 +179,7 @@ x = text.title()
 fruits = ['apple', 'banana', 'cherry', 'orange']
 x = fruits.copy()
 print(x)
+#www.coffeete.ir/mohammadkah
 ```
 ## 7
 محمد کهنوی:
@@ -190,6 +197,7 @@ elif 0 <= x < 9:
     print("Need more effort")
 elif x > 20 or x < 0:
     print("The entered number is invalid")
+#www.coffeete.ir/mohammadkah
 ```
 پارسا صفائی:
 ```python
@@ -275,6 +283,7 @@ e = int(input())
 if e > 0:
     numbers.append(e)
 print(numbers)
+#www.coffeete.ir/mohammadkah
 ```
 
 پارسا صفائی:
@@ -292,6 +301,7 @@ print ("name kamel shoma barabar ast ba: " + x , y)
 for i in range (5):
     x = input("Enter your name:")
     print(x)
+#www.coffeete.ir/mohammadkah
 ```
 ## 10
 محمد کهنوی:
@@ -299,6 +309,7 @@ for i in range (5):
 for x in range(1, 101):
     if x % 7 == 0:
         print(x)
+#www.coffeete.ir/mohammadkah
 ```
 جوابی که تو کلاس با هم نوشتیم:
 ```python
@@ -322,6 +333,7 @@ i = 5
 while i >= 1:
     print(i * "*")
     i = i - 1
+#www.coffeete.ir/mohammadkah
 ```
 امیررضا شهماردخت:
 ```python
@@ -390,6 +402,7 @@ def prime():
     return True
 x = int(input())
 print(prime())
+#www.coffeete.ir/mohammadkah
 استفاده از تابع تعریف شده در یک فایل دیگه:
 from text import prime
 prime()
@@ -643,4 +656,5 @@ if count == 1:
     print("You can hit the nut")
 else:
     print("You can't hit the nut")
+#www.coffeete.ir/mohammadkah
 ```
