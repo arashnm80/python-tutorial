@@ -110,6 +110,21 @@ b = "hello"
 a = "hello"
 A = 3
 ```
+شکل های درست و غلط برای نام گذاری متغیر ها:
+```python
+# شکل های درست:
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+# شکل های غلط:
+2myvar = "John"
+my-var = "John"
+my var = "John"
+```
 ### گرفتن ورودی از کاربر
 ```python
 print("enter your age:")
