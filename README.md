@@ -61,10 +61,11 @@ https://play.google.com/store/apps/details?id=com.alif.ide.python
 ```python
 print("hello world!")
 ```
-نوشتن متن روی صفحه بدون رفتن به خط بعد:
+حالت های دیگر پرینت:
 ```python
-print("hello ", end = "")
+print("hello ", end = "") # نوشتن متن روی صفحه بدون رفتن به خط بعد
 print("world!")
+print(10 * "stop") # ده بار نوشته استاپ رو پشت هم برای ما مینویسه
 ```
 ### کامنت گذاری
 ```python
