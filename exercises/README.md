@@ -62,6 +62,11 @@ name = input()
 print("Hello" , name)
 #www.coffeete.ir/mohammadkah
 ```
+```python
+print ("enter your name")
+name=input ()
+print("hello",name )
+```
 
 </details>
 
