@@ -80,10 +80,10 @@ print(other_age)
 ```
 ### انواع متغیر ها
 ```python
-age = 20 # integer
-score = 19.25 # float
-name = "Arash" # string
-status = False # boolean
+age = 20 # integer عدد صحیح
+score = 19.25 # float عدد اعشاری
+name = "Arash" # string نوشته، متن
+status = False # boolean درست یا غلط
 ```
 همچنین میشه برای کوتاه تر شدن نوشته چند تا متغیر رو پشت سر هم تو یه خط تعریف کرد:
 ```python
