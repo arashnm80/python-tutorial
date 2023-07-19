@@ -221,20 +221,7 @@ if not(x < 0 or x > 20): # نوع دیگر نوشتن، دقیقا همون کا
 else: # در غیر این صورت
     print("not ok")
 ```
-نمونه اول از if که سر کلاس امتحان کردیم:
-```python
-x = int(input("enter number: "))
-
-if x > 4:
-    print("bozorgtar az 4")
-elif x > 0:
-    print("bozorgtar az 0")
-else:
-    print("kochaktar ya mosavi 4")
-
-print("end")
-```
-نمونه دوم از if که سر کلاس امتحان کردیم:
+نمونه ای از if که سر کلاس امتحان کردیم:
 ```python
 y = input("enter a text: ")
 
