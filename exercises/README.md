@@ -189,6 +189,11 @@ z = print(x,y)
 #www.coffeete.ir/mohammadkah
 ```
 
+```python
+x=print("enter your Frist name")
+y=print ("enter your last name ")
+print (x,y)
+```
 </details>
 
 ---
