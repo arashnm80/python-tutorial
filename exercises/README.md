@@ -188,7 +188,7 @@ y = input("Whats your last name?")
 z = print(x,y)
 #www.coffeete.ir/mohammadkah
 ```
-
+سید محمدامین مهدی زاده:
 ```python
 x=print("enter your Frist name")
 y=print ("enter your last name ")
