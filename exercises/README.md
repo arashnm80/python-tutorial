@@ -148,7 +148,13 @@ z = str(x+y)
 print("The sum of them is equal to: " + z)
 #www.coffeete.ir/mohammadkah
 ```
-
+سید محمد امین مهدی زاده:
+```python
+x=int(input("write frist namber")
+y=int(input ("write second namber")
+z=x+y
+print(z)
+```
 </details>
 
 ---
