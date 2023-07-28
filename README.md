@@ -289,14 +289,6 @@ if y == 0: # اگر باقی مانده صفر بود
 else: # اگر باقی مانده صفر نبود
     print("odd")
 ```
-چک کردن موجود بودن یک فایل:
-```python
-import os
-if os.path.isfile("test.py"):
-    print("this file exists")
-else:
-    print("doesn't")
-```
 ### لیست
 ```python
 names = ['arash', 'korosh', 'maryam', 'mina', 'reza']
