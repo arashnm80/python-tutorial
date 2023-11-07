@@ -1,4 +1,4 @@
-# دوره آموزش پایتون - رایگان و از صفر
+# دوره آموزش برنامه نویسی پایتون
 <p align="center">
   <img height="300" src="https://github.com/arashnm80/python-tutorial/assets/20334281/bc339f33-34cf-460b-8a38-8f557828869f">
 </p>
