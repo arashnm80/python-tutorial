@@ -26,13 +26,12 @@
 - Data Science (علوم داده)
 - Math (ریاضی)
 - Machine Learning (یادگیری ماشین)
-## 1. نصب نرم افزار و محیط اجرای کد ها
-### نصب پایتون روی سیستم (اگر ویندوز 10 یا 11 داشته باشید دردسر خیلی کمتری خواهید داشت)
-**ویدیوی نصب پایتون و استفاده نرم افزار ها: [آپارات](https://aparat.com/v/rzPbj) |  [youtube](https://youtu.be/rk_peEj5gzY)**
+## 1. نصب نرم افزار و نحوه اجرای کد ها
+### نصب پایتون روی سیستم (اگر ویندوز 10 یا 11 داشته باشید نسبت به ویندوز های قدیمی خیلی راحت تر خواهید بود)
 
 https://www.python.org/downloads/
 
-موقع نصب گزینه (add python to path) رو هم بزنید.
+موقع نصب نرم افزار ها اگر گزینه (add python to path) وجود داشت تیکش رو بزنید.
 ### محیط های توسعه یا همون IDE ها (هر کدوم که کار کردن باهاش براتون راحت تره رو انتخاب کنید)
 ### vscode
 میشه گفت در حال حاضر محبوب ترین محیط برنامه نویسی برای اکثر زبان هاست:
@@ -48,12 +47,6 @@ https://www.sololearn.com/compiler-playground/python
 محیط توسعه برای اندروید به پیشنهاد محمد کهنوی:
 https://play.google.com/store/apps/details?id=ru.iiec.pydroid3
 
-### Online Compiler - Code on Mobi
-کامپایلر آنلاین برای اندرویده که میتونید از گوگل پلی دانلود کنید:
-https://play.google.com/store/apps/details?id=app.compiler
-### PyCode - ide for python
-برنامه مشابه دیگری برای اندروید:
-https://play.google.com/store/apps/details?id=com.alif.ide.python
 
 
 ---
