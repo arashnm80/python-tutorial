@@ -40,7 +40,10 @@ https://www.python.org/downloads
 | pycharm | https://www.jetbrains.com/pycharm/download | دانلود و استفاده از نسخه کامیونیتی اش رایگانه |
 | sololearn code playground | https://www.sololearn.com/compiler-playground/python | نیازی به نصب نیست و میتونید تحت وب کدتون رو اجرا کنی |
 | Pydroid 3 - IDE for Python 3 | https://play.google.com/store/apps/details?id=ru.iiec.pydroid3 | میتونید توی موبایل باهاش کدنویسی کنید |
-
+### دستور نمونه برای امتحان کردن محیط اجرای کد
+```python
+print(2+3)
+```
 ---
 ---
 ---
