@@ -730,7 +730,8 @@ https://www.pythonguis.com/tutorials/create-ui-with-tkinter-grid-layout-manager/
 - https://youtu.be/pQvkoaevVMk
 نصب کتاب خانه ها:
 ```
-pip3 install opencv-python deepface
+pip install opencv-python
+pip install --no-deps deepface
 ```
  کد:
 ```python
