@@ -727,7 +727,7 @@ win.mainloop() # نمایش پنجره
 https://www.pythonguis.com/tutorials/create-ui-with-tkinter-grid-layout-manager/
 ## تشخیص چهره با opencv و deepface
 آموزش برگرفته از:
-- https://youtu.be/pQvkoaevVMk
+- https://youtu.be/pQvkoaevVMk \
 نصب کتاب خانه ها:
 ```
 pip install opencv-python
