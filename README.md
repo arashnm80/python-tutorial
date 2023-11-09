@@ -725,3 +725,8 @@ win.mainloop() # نمایش پنجره
 ```
 نمونه استفاده از grid در tkinter پایتون:
 https://www.pythonguis.com/tutorials/create-ui-with-tkinter-grid-layout-manager/
+## تشخیص چهره با opencv و deepface
+نصب کتاب خانه ها:
+```
+pip3 install opencv-python deepface
+```
