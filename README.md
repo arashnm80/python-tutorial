@@ -100,7 +100,7 @@ A = 3
 ```
 شکل های درست و غلط برای نام گذاری متغیر ها:
 ```python
-# right forms:
+# right forms✅:
 myvar = "John"
 my_var = "John"
 _my_var = "John"
@@ -108,7 +108,7 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
 
-# wrong forms:
+# wrong forms❌:
 2myvar = "John"
 my-var = "John"
 my var = "John"
